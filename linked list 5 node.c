@@ -1,8 +1,9 @@
 #include<stdio.h>
 
 struct node   
-{  
-    int data;  
+{  int a;
+    int data;
+
     struct node *next;   
 };
 
