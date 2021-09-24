@@ -105,5 +105,6 @@ void create()
 		 }
 		 ptr=ptr->next;
 	 }
-	 printf("\n minimum element in the linked list is:%d\n",min);
+	 printf(" minimum element in the linked list is:%d",min);
+ printf("\n");
  }
