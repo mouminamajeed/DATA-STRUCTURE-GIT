@@ -95,14 +95,10 @@ void create()
 	ptr=(struct node *)malloc(sizeof(struct node));
 	printf("\n enter the info of node");
 	scanf("%d",&ptr->data);
-	cpt=head;
-	while(cpt->next!=head)
-      {
-     	cpt=cpt->next;
-       }
-	cpt->next=ptr;
-	ptr->next=head;
-  } 
+	tail->next=ptr;
+ ptr->next=head;
+ tail=ptr;
+ } 
   //function for inserting node at any position
  void insert_mid()
  {
